@@ -104,11 +104,16 @@ body {
     margin: 0 5px;
     cursor: pointer;
     font-size: 16px;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for 3D effect */
+    transition: all 0.2s ease; /* Smooth transition for 3D effect */
 }
 
 #navbar button:hover {
     background-color: #555;
     border-color: #ff7700;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover for depth */
+    transform: translateY(-2px); /* Slight lift on hover */
 }
 
 #navbar button:focus {
@@ -116,6 +121,14 @@ body {
     background-color: #ff7700;
     color: #1e1e1e;
 }
+
+#navbar button:active {
+    background-color: #333; /* Darker shade when pressed */
+    border-color: #ff5500;  /* Slightly different border color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow goes in for a pressed effect */
+    transform: translateY(2px); /* Simulate button depression */
+}
+
 
 /* Content section styles */
 #content {
