@@ -16,8 +16,8 @@ body {
 }
 
 #profile-picture {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     background-color: #444;
@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: #ff7700 2px solid;
 }
 
 #profile-picture img {
@@ -48,6 +49,19 @@ body {
     margin: 10px 0;
 }
 
+.info-items{
+    display: inline;
+}
+
+#email {
+    width: 30px;
+    margin-bottom: -6px;
+}
+
+#location {
+    width: 30px;
+}
+
 #personal-info ul li {
     margin: 5px 0;
 }
@@ -60,6 +74,16 @@ body {
 
 #social-links a:hover {
     text-decoration: underline;
+}
+
+#linkedin {
+    width: 30px;
+    margin-bottom: -5px;
+}
+
+#github {
+    width: 30px;
+    margin-bottom: -5px;
 }
 
 /* Navigation bar styles */
