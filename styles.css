@@ -146,7 +146,7 @@ body {
     width: 90%;
     margin: 20px auto;
     background-color: #292929;
-    border: 2px solid #ff7700;
+    border: 2px solid #a15919;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
@@ -170,6 +170,132 @@ body {
     line-height: 1.6;
     font-size: 16px;
 }
+
+/* Work Experience Display */
+#Keywords {
+    display: flex;
+}
+
+.info-section .job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #ff7700;
+}
+
+.company-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 1em;
+    color: #f0f0f0;
+    border-bottom: 1px solid #ff7700;
+    padding-bottom: 5px;
+}
+
+.dates {
+    text-align: right;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+.info-section ul {
+    margin: 15px 0 0 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.info-section ul li {
+    margin: 8px 0;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #f0f0f0;
+    text-align: left;
+}
+
+.info-section ul li::marker {
+    color: #ff7700;
+}
+
+/* Coding Tools and Language */
+.tools-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    gap: 100px;
+}
+
+.tile {
+    background-color: #292929;
+    border: 2px solid #a15919;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    max-width: 48%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.tile h3 {
+    color: #ff7700;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.item-tile {
+    display: flex;
+    align-items: center;
+    min-width: 180px;
+    gap: 10px;
+    background-color: #1e1e1e;
+    border: 1px solid #a77964;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-tile:hover {
+    transform: scale(1.05);
+    background-color: #ff7700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 2px #1e1e1e solid;
+}
+
+.item-tile:hover p {
+    color: #1e1e1e;
+}
+
+.item-tile:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.item-tile img {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.item-tile p {
+    font-size: 1em;
+    color: #f0f0f0;
+    margin: 0;
+}
+
 
 /* Default display for Projects */
 #projects {
