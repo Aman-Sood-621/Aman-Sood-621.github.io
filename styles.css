@@ -15,9 +15,13 @@ body {
     border-bottom: 2px solid #ff7700;
 }
 
+#banner H1 {
+    font-size: 8em;
+}
+
 #profile-picture {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     background-color: #444;
@@ -176,6 +180,15 @@ body {
     display: flex;
 }
 
+.job-logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 65px;
+}
+
+#keywords-logo {
+}
+
 .info-section .job {
     margin-bottom: 20px;
 }
@@ -183,7 +196,7 @@ body {
 .job h3 {
     margin: 0;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 2em;
     color: #ff7700;
 }
 
