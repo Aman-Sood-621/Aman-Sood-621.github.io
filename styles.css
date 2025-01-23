@@ -21,7 +21,8 @@ body {
     border-radius: 50%;
     overflow: hidden;
     background-color: #444;
-    margin-right: 20px;
+    margin-right: 40px;
+    margin-left: 50px;
     display: flex;
     border: #ff7700 2px solid;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -102,7 +103,7 @@ body {
     color: #f0f0f0;
     border: 1px solid #555;
     padding: 10px 20px;
-    margin: 0 5px;
+    margin: 0 10px;
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
@@ -138,18 +139,36 @@ body {
 
 /* Content section styles */
 #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #292929;
+    border: 2px solid #ff7700;
+    border-radius: 10px;
     padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .info-section {
-    display: none;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .info-section h2 {
     color: #ff7700;
-    border-bottom: 1px solid #ff7700;
-    padding-bottom: 5px;
     margin-bottom: 15px;
+    border-bottom: 1px solid #ff7700;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.info-section p {
+    color: #f0f0f0;
+    line-height: 1.6;
+    font-size: 16px;
 }
 
 /* Default display for Projects */
