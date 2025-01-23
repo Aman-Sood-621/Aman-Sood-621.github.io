@@ -267,13 +267,15 @@ body {
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform;
 }
 
 .item-tile:hover {
     transform: scale(1.05);
     background-color: #ff7700;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    border: 2px #1e1e1e solid;
+    border-color: #ff7700;
+    transform-origin: center;
 }
 
 .item-tile:hover p {
