@@ -1,3 +1,9 @@
+@media (max-width: 960px) {
+    html {
+        min-width: 960px;
+    }
+}
+
 /* General styles */
 body {
     margin: 0;
@@ -180,9 +186,18 @@ body {
     display: flex;
 }
 
+@media (max-width: 1500px) {
+    #Keywords {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .job-logo {
+        align-self: center;
+    }
+}
+
 .job-logo {
-    display: flex;
-    justify-content: center;
     margin-left: 65px;
 }
 
@@ -238,7 +253,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     gap: 100px;
 }
