@@ -23,11 +23,3 @@ function showSection(sectionId) {
         activeButton.classList.add('active');
     }
 }
-
-document.getElementById('download-cv').addEventListener('click', function () {
-    const link = document.createElement('a');
-    link.href = 'Assets/CV.pdf';
-    link.download = 'Aman_Sood_CV.pdf';
-    link.target = '_blank';
-    link.click();
-});
