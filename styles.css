@@ -16,7 +16,7 @@ body {
 }
 
 #banner H1 {
-    font-size: 8em;
+    font-size: 6em;
 }
 
 #profile-picture {
@@ -184,9 +184,6 @@ body {
     display: flex;
     justify-content: center;
     margin-left: 65px;
-}
-
-#keywords-logo {
 }
 
 .info-section .job {
