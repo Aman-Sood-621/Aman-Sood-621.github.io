@@ -4,7 +4,6 @@
     }
 }
 
-/* General styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -12,7 +11,6 @@ body {
     color: #f0f0f0;
 }
 
-/* Banner styles */
 #banner {
     display: flex;
     align-items: center;
@@ -181,13 +179,13 @@ body {
     font-size: 16px;
 }
 
-/* Work Experience Display */
-#Keywords {
+#contents {
     display: flex;
+    margin-bottom: 75px;
 }
 
 @media (max-width: 1500px) {
-    #Keywords {
+    #contents {
         display: flex;
         flex-direction: column;
     }
@@ -199,6 +197,7 @@ body {
 
 .job-logo {
     margin-left: 65px;
+    align-items: right;
 }
 
 .info-section .job {
@@ -210,6 +209,21 @@ body {
     font-weight: bold;
     font-size: 2em;
     color: #ff7700;
+}
+
+.pro-details h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 2em;
+    color: #ff7700;
+}
+
+.pro-details {
+    flex-grow: 1;
+}
+
+.highlight {
+    color: #40E0D0;
 }
 
 .company-details {
@@ -248,7 +262,6 @@ body {
     color: #ff7700;
 }
 
-/* Coding Tools and Language */
 .tools-tiles {
     display: flex;
     flex-wrap: wrap;
@@ -321,4 +334,8 @@ body {
     font-size: 1em;
     color: #f0f0f0;
     margin: 0;
+}
+
+#alignment ul{
+    text-align: left;
 }
